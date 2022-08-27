@@ -13,7 +13,7 @@
 
 <body>
     <div id="gjs">
-        <h1>Hello World Component!</h1>
+        <h1>Component!</h1>
     </div>
 </body>
 
@@ -38,4 +38,10 @@
 
     });
 
+    // can be anything...
+    const customComponent = `<div>
+                                <a>this is an a tag</a>
+                            </div>`
+
+    editor.addComponents(customComponent)
 </script>
