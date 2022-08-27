@@ -7,9 +7,18 @@ body {
   margin: 0 auto;
 }
 
-/* Reset some default styling */
 .gjs-cv-canvas {
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 #blocks css                                */
+/* -------------------------------------------------------------------------- */
+
+.gjs-block {
+  width: auto;
+  height: auto;
+  min-height: auto;
 }
